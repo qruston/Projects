@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 428bdf186d1cfd84b87a4fde5cc2073b, type: 3}
+  m_Name: Overworld Graveyard Variation C
+  m_EditorClassIdentifier: 
+  ID: Overworld Graveyard C
+  DisplayName: Graveyard C
+  EditorIcon: {fileID: 0}
+  TopperPrefab: {fileID: 4112673760417680249, guid: 98dc8eee7dc8fb548940f6304933fbbc,
+    type: 3}

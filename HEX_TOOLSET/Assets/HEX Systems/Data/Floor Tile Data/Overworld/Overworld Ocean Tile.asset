@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16c6e331de6f1674e928dbcd125cf002, type: 3}
+  m_Name: Overworld Ocean Tile
+  m_EditorClassIdentifier: 
+  biome: Overworld Ocean
+  floorAudioID: 
+  Buildable: 0
+  SurfaceMaterial: {fileID: 2100000, guid: 35eb29f4d380dda4d92749e1a308d3ba, type: 2}
+  BodyMaterial: {fileID: 2100000, guid: 51b7afc60e268674e902bf9c184f638b, type: 2}
+  tilePrefab: {fileID: 568412860304947946, guid: 7783bce27dfc2634f92a5cb5e3f73f4b,
+    type: 3}

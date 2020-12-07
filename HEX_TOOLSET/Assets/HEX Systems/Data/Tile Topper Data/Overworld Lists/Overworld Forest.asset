@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c675caaa2126be4c8e33cde4de59ac6, type: 3}
+  m_Name: Overworld Forest
+  m_EditorClassIdentifier: 
+  TileToppers:
+  - {fileID: 11400000, guid: 31c390e205b599d43803bab42e31523e, type: 2}
+  - {fileID: 11400000, guid: 8009ff9912106704ab429dc504aa0b78, type: 2}
+  - {fileID: 11400000, guid: 5b7047c8ba8812b4caf32c09ff3986e6, type: 2}
+  - {fileID: 11400000, guid: f1f47e70d2bdd3644a06b601948a3f6f, type: 2}
+  - {fileID: 11400000, guid: 398886167587ff14b9d374481e61b6eb, type: 2}

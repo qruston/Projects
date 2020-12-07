@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c710a0ce169bf904581ad1cce0ba909f, type: 3}
+  m_Name: World Map Generation
+  m_EditorClassIdentifier: 
+  HexOffset:
+  - {x: 0, y: 0, z: 0.866}
+  - {x: 0.75, y: 0, z: 0.433}
+  - {x: 0.75, y: 0, z: -0.433}
+  - {x: 0, y: 0, z: -0.866}
+  - {x: -0.75, y: 0, z: -0.433}
+  - {x: -0.75, y: 0, z: 0.433}
+  m_MapPositionOffsets:
+  - {x: 0, y: 1}
+  - {x: 0.5, y: 0.5}
+  - {x: 0.5, y: -0.5}
+  - {x: 0, y: -1}
+  - {x: -0.5, y: -0.5}
+  - {x: -0.5, y: 0.5}
+  HexScale: {x: 4, y: 1, z: 4}
+  PaintAndPlacementLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  PropSelectionLayers:
+    serializedVersion: 2
+    m_Bits: 4
+  DefaultBiomeData: {fileID: 11400000, guid: a07183b05af249749884628e91af373e, type: 2}
+  ChanceForSameBiome: 0
+  BiomeSets:
+  - {fileID: 11400000, guid: a07183b05af249749884628e91af373e, type: 2}
+  - {fileID: 11400000, guid: 5ac49484a1e2fc846bd8fbdec945cf6f, type: 2}
+  - {fileID: 11400000, guid: 3ebb7becb1c6d0e488e54240bd10221e, type: 2}
+  - {fileID: 11400000, guid: afe69e68c307c934cafc4a75e2c4e345, type: 2}
+  - {fileID: 11400000, guid: ffbe1e9260c81c744bed3f0604a0652c, type: 2}
+  - {fileID: 11400000, guid: a079b3e44e18c834e93825960b30b09b, type: 2}
+  - {fileID: 11400000, guid: 73302a518747f9343b930d5e42f2e1bc, type: 2}
+  Props:
+  - {fileID: 11400000, guid: 0ee619632ae3c664093ef49af23d658d, type: 2}
